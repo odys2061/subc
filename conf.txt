@@ -39,3 +39,4 @@ dns:
 		- 117.50.22.22
     - 52.80.66.66
   fallback: 
+######### https://raw.githubusercontent.com/Odyssey-2061/subc/refs/heads/major/conf.txt
