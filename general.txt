@@ -1,5 +1,5 @@
 [custom]
-clash_rule_base=https://raw.githubusercontent.com/Odyssey-2061/subc/major/conf.txt
+clash_rule_base=https://raw.githubusercontent.com/odys2061/subc/major/conf.txt
 custom_proxy_group=PROXY`fallback`.*`http://1.0.0.1/generate_204`1798,15,150
 ### exclude_remarks=(korea|kr|韩国)
 include_remarks=(香港|Hong|HK)
@@ -126,4 +126,4 @@ ruleset=DIRECT,[]GEOIP,private
 ruleset=DIRECT,[]GEOIP,cn
 ruleset=PROXY,[]DST-PORT,80/443
 ruleset=DIRECT,[]MATCH
-######### https://raw.githubusercontent.com/Odyssey-2061/subc/major/general.txt
+######### https://raw.githubusercontent.com/odys2061/subc/major/general.txt
