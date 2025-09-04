@@ -40,3 +40,4 @@ dns:
     - 52.80.66.66
   fallback: 
 ######### https://raw.githubusercontent.com/odys2061/subc/major/conf.txt
+######### https%3A%2F%2Fraw.githubusercontent.com%2Fodys2061%2Fsubc%2Fmajor%2Fconf.txt
