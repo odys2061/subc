@@ -1,13 +1,10 @@
 [custom]
 clash_rule_base=https://raw.githubusercontent.com/odys2061/subc/refs/heads/major/conf.txt
 custom_proxy_group=PROXY`fallback`.*`http://1.0.0.1/generate_204`1500,15,150
-### exclude_remarks=(korea|kr|韩国)
 include_remarks=(香港|Hong|HK)
-###### Rules
 ruleset=PROXY,[]DOMAIN-SUFFIX,google.com
 ruleset=PROXY,[]DOMAIN,services.googleapis.cn
 ruleset=PROXY,[]DOMAIN-SUFFIX,vaultwarden.net
-### ruleset=DIRECT,[]DOMAIN-SUFFIX,tencent.com
 ruleset=DIRECT,[]DOMAIN-SUFFIX,cn
 ruleset=DIRECT,[]DOMAIN-SUFFIX,msftncsi.com
 ruleset=DIRECT,[]DOMAIN-SUFFIX,msftconnecttest.com
