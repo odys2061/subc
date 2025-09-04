@@ -1,5 +1,5 @@
 [custom]
-clash_rule_base=https://raw.githubusercontent.com/odys2061/subc/major/conf.txt
+clash_rule_base=https://raw.githubusercontent.com/odys2061/subc/refs/heads/major/conf.txt
 custom_proxy_group=PROXY`fallback`.*`http://1.0.0.1/generate_204`1500,15,150
 ### exclude_remarks=(korea|kr|韩国)
 include_remarks=(香港|Hong|HK)
