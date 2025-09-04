@@ -18,5 +18,5 @@ ruleset=DIRECT,[]GEOIP,private
 ruleset=DIRECT,[]GEOIP,cn
 ruleset=PROXY,[]DST-PORT,80/443
 ruleset=DIRECT,[]MATCH
-######### https://raw.githubusercontent.com/odys2061/subc/major/general.txt
-######### https%3A%2F%2Fraw.githubusercontent.com%2Fodys2061%2Fsubc%2Fmajor%2Fgeneral.txt
+######### https://raw.githubusercontent.com/odys2061/subc/refs/heads/major/general.txt
+######### https%3A%2F%2Fraw.githubusercontent.com%2Fodys2061%2Fsubc%2Frefs%2Fheads%2Fmajor%2Fgeneral.txt
