@@ -1,6 +1,6 @@
 [custom]
 clash_rule_base=https://raw.githubusercontent.com/odys2061/subc/refs/heads/major/conf.txt
-custom_proxy_group=PROXY`fallback`.*`http://1.0.0.1/generate_204`1515,15,150
+custom_proxy_group=PROXY`fallback`.*`http://1.0.0.1/generate_204`1800,15,150
 ### include_remarks=(香港|Hong|HK)
 ruleset=PROXY,[]DOMAIN-SUFFIX,google.com
 ruleset=PROXY,[]DOMAIN,services.googleapis.cn
