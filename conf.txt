@@ -4,7 +4,7 @@ bind-address: "*"
 mode: rule
 log-level: silent
 geodata-mode: true
-geosite-matcher: mph
+### geosite-matcher: mph
 ### geodata-loader: memconservative
 geo-auto-update: true
 geo-update-interval: 120
@@ -27,9 +27,9 @@ dns:
     - https://223.6.6.6/dns-query
   enhanced-mode: fake-ip
   fake-ip-filter: 
-    - .lan
-    - +.msftncsi.com
-    - +.msftconnecttest.com
+    - ".lan"
+    - "+.msftncsi.com"
+    - "+.msftconnecttest.com"
     - localhost.sec.qq.com
     - localhost.ptlogin2.qq.com
 # nameserver: 
