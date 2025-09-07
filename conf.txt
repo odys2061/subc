@@ -5,7 +5,7 @@ mode: rule
 log-level: silent
 geodata-mode: true
 geosite-matcher: mph
-### geodata-loader: memc
+### geodata-loader: memconservative
 geo-auto-update: true
 geo-update-interval: 120
 disable-keep-alive: true
