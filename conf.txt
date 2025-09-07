@@ -28,8 +28,8 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-filter: 
     - .lan
-    - .msftncsi.com
-    - .msftconnecttest.com
+    - +.msftncsi.com
+    - +.msftconnecttest.com
     - localhost.sec.qq.com
     - localhost.ptlogin2.qq.com
 # nameserver: 
