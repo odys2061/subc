@@ -14,10 +14,19 @@ ruleset=DIRECT,[]DOMAIN-SUFFIX,msftconnecttest.com
 ruleset=DIRECT,[]DOMAIN-SUFFIX,miwifi.com
 ruleset=DIRECT,[]GEOSITE,private
 ruleset=DIRECT,[]GEOSITE,geolocation-cn
-ruleset=PROXY,[]GEOSITE,gfw
+ruleset=PROXY,[]GEOSITE,geolocation-!cn
 ruleset=DIRECT,[]GEOIP,private
 ruleset=DIRECT,[]GEOIP,cn
-ruleset=PROXY,[]DST-PORT,80/443
+ruleset=PROXY,[]DST-PORT,80/443/853
+ruleset=PROXY,[]DST-PORT,8080/8443/53
+ruleset=PROXY,[]DST-PORT,5228/5222/8081
+ruleset=PROXY,[]DST-PORT,123/143/194
+ruleset=PROXY,[]DST-PORT,53/465/587
+ruleset=PROXY,[]DST-PORT,993/995/998
+ruleset=PROXY,[]DST-PORT,2052/2053/5229
+ruleset=PROXY,[]DST-PORT,2082/2083/2086
+ruleset=PROXY,[]DST-PORT,2095/2096/5230
+ruleset=PROXY,[]DST-PORT,8880/8888/8889
 ruleset=DIRECT,[]MATCH
 ######### https://raw.githubusercontent.com/odys2061/subc/refs/heads/major/general.txt
 ######### https%3A%2F%2Fraw.githubusercontent.com%2Fodys2061%2Fsubc%2Frefs%2Fheads%2Fmajor%2Fgeneral.txt
