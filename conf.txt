@@ -4,13 +4,13 @@ bind-address: "*"
 mode: rule
 log-level: silent
 geodata-mode: true
-geosite-matcher: mph
-### geodata-loader: memconservative
+### geosite-matcher: mph
+### geodata-loader: standard
 geo-auto-update: true
 geo-update-interval: 120
 disable-keep-alive: true
-keep-alive-idle: 55
-keep-alive-interval: 5
+keep-alive-idle: 60
+keep-alive-interval: 10
 external-ui: /path/to/ui/folder
 external-ui-name: Clash_Dashboard
 external-ui-url: "https://ghproxy.net/github.com/Zephyruso/zashboard/releases/latest/download/dist.zip"
