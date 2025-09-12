@@ -8,6 +8,7 @@ ruleset=PROXY,[]DOMAIN-SUFFIX,vaultwarden.net
 ruleset=DIRECT,[]DOMAIN,edge.microsoft.com
 ruleset=DIRECT,[]DOMAIN-SUFFIX,msftncsi.com
 ruleset=DIRECT,[]DOMAIN-SUFFIX,msftconnecttest.com
+ruleset=DIRECT,[]GEOSITE,lenovo
 ruleset=PROXY,[]GEOSITE,tld-!cn
 ruleset=PROXY,[]GEOSITE,geolocation-!cn
 ruleset=DIRECT,[]GEOIP,private
