@@ -15,26 +15,21 @@ external-ui: /path/to/ui/folder
 external-ui-name: Clash_Dashboard
 external-ui-url: "https://ghproxy.net/github.com/Zephyruso/zashboard/releases/latest/download/dist.zip"
 external-controller: 127.0.0.1:9090
-secret: ""
 dns: 
   enable: true
   ipv6: true
   listen: 0.0.0.0:13579
-  respect-rules: false
   default-nameserver: 
     - https://223.6.6.6/dns-query
   proxy-server-nameserver: 
     - https://223.6.6.6/dns-query
   enhanced-mode: fake-ip
+  fake-ip-filter-mode: whitelist
   fake-ip-filter: 
-    - ".lan"
-    - "+.msftncsi.com"
-    - "+.msftconnecttest.com"
-    - edge.microsoft.com
-    - localhost.sec.qq.com
-    - localhost.ptlogin2.qq.com
-    - "geosite: tencent"
-    - "geosite: lenovo"
+    - "geosite: tld-!cn"
+    - "geosite: gfw"
+    - "+.vaultwarden.net"
+    - "services.googleapis.cn"
 # nameserver: 
 #   - 117.50.22.22
 #   - 52.80.66.66
