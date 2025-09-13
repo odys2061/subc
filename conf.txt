@@ -13,7 +13,7 @@ keep-alive-idle: 60
 keep-alive-interval: 10
 external-ui: /path/to/ui/folder
 external-ui-name: Clash_Dashboard
-external-ui-url: "https://ghproxy.net/github.com/Zephyruso/zashboard/releases/latest/download/dist.zip"
+external-ui-url: "https://hub.gitmirror.com/github.com/Zephyruso/zashboard/releases/latest/download/dist.zip"
 external-controller: 127.0.0.1:9090
 dns: 
   enable: true
