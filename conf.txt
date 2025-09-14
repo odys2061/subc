@@ -31,8 +31,8 @@ dns:
     - "services.googleapis.cn"
     - "geosite: gfw"
   nameserver: 
-    - 52.80.66.66
     - 117.50.22.22
+    - 52.80.66.66
   fallback: []
 ######### https://raw.githubusercontent.com/odys2061/subc/refs/heads/major/conf.txt
 ######### https%3A%2F%2Fraw.githubusercontent.com%2Fodys2061%2Fsubc%2Frefs%2Fheads%2Fmajor%2Fconf.txt
