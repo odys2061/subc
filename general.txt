@@ -10,7 +10,6 @@ ruleset=DIRECT,[]DOMAIN-SUFFIX,msftncsi.com
 ruleset=DIRECT,[]DOMAIN-SUFFIX,msftconnecttest.com
 ruleset=DIRECT,[]GEOSITE,tencent
 ruleset=DIRECT,[]GEOSITE,lenovo
-ruleset=PROXY,[]GEOSITE,tld-!cn
 ruleset=PROXY,[]GEOSITE,geolocation-!cn
 ruleset=DIRECT,[]GEOIP,private
 ruleset=DIRECT,[]GEOIP,cn
