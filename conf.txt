@@ -28,7 +28,8 @@ dns:
   fake-ip-filter: 
     - "+.vaultwarden.net"
     - "services.googleapis.cn"
-    - "geosite: geolocation-!cn"
+    - "geosite: tld-!cn"
+    - "geosite: gfw"
   nameserver: 
     - 117.50.22.22
     - 52.80.66.66
